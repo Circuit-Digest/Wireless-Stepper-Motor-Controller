@@ -72,10 +72,10 @@
 #include <SPI.h>           // SPI communication for TMC2240
 #include <WiFi.h>          // WiFi connectivity
 #include <WebServer.h>     // HTTP server for web interface
-#include "AS5600.h"        // Magnetic encoder library
+#include "AS5600.h"        // Magnetic encoder library - https://github.com/RobTillaart/AS5600
 #include <Wire.h>          // I2C communication
-#include <PD_UFP.h>        // USB-C Power Delivery library
-#include <ArduinoJson.h>   // JSON handling for web API
+#include <PD_UFP.h>        // USB-C Power Delivery library - https://github.com/kcl93/fusb302_arduino
+#include <ArduinoJson.h>   // JSON handling for web API - https://arduinojson.org/?utm_source=meta&utm_medium=library.properties // Version 7.4.1
 #include "index_page.h"    // HTML page for web interface
 
 // ===============================================================================
